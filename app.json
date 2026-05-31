@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "TaskFlow",
+    "slug": "taskflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.taskflow.mobile"
+    },
+    "extra": {
+      "apiUrl": "http://10.0.2.2:5000/api"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
