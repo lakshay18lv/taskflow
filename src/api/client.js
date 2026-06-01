@@ -1,6 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-const API_URL = 'http://10.0.2.2:5000/api';
+const API_URL = EXPO_PUBLIC_API_URL;
 
 export const api = axios.create({
   baseURL: API_URL,
@@ -16,4 +16,4 @@ export const setAuthToken = (token) => {
 };
 
 export const getApiError = (error) =>
-  error?.response?.data?.message || 'Network issue. Please try again.';
+  error?.response?.data?.message || "Network issue. Please try again.";
